@@ -6,16 +6,18 @@ public abstract class Product {
     private Double price;
     protected String msg;
 
-    public Product(String name, Double priceIn){
+    public Product(String name, Double price){
         this.name = name;
-        this.price = priceIn;
+        this.price = price;
     }
 
     public String getName(){
+
         return name;
     }
 
     public Double getPrice(){
+
         return price;
     }
 

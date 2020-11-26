@@ -1,12 +1,14 @@
-package com.codedifferently.walkthrough.vendingmachine.inventory;
+package com.codedifferently.walkthrough.vendingmachine;
 
+import com.codedifferently.walkthrough.vendingmachine.inventory.Gum;
 import org.junit.Assert;
 import org.junit.Test;
+import sun.security.x509.DeltaCRLIndicatorExtension;
 
 public class GumTest {
 
     @Test
-    public void constructorTest(){
+    public void constructorTest() {
         // Given
         String name = "Big Red";
         Double price = 0.25;
@@ -15,12 +17,14 @@ public class GumTest {
         // When
         String expected = "Big Red 0.25";
         String actual = gumRef.toString();
+
         // Then
-        Assert.assertEquals("Constructor test",expected, actual);
+        Assert.assertEquals(expected,actual);
+
     }
 
     @Test
-    public void messageTest(){
+    public void messageTest() {
         //Given
         Gum gumRef = new Gum();
 

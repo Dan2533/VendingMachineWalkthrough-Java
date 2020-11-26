@@ -4,7 +4,7 @@ public class Gum extends Product{
 
     public Gum(String nameIn, Double priceIn){
         super(nameIn, priceIn);
-        msg = "Chew Chew, Yum!";
+        this.message();
     }
 
     public Gum(){
@@ -12,7 +12,13 @@ public class Gum extends Product{
     }
 
     @Override
+    public String toString() {
+        return "Chew Chew Yum!";
+    }
+    @Override
     public String message() {
+        String msg = "Chew Chew, Yum!";
+        super.msg = msg;
         return msg;
     }
 }
