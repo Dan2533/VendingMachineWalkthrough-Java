@@ -6,7 +6,7 @@ public class Chips extends Product {
         super(nameIn, priceIn);
         this.message();
     }
-    public Chips() { this("Herrs potato chips", 1.0);}
+    public Chips() { this("Herr's", 1.00);}
 
     @Override
     public String toString() { return "Crunch Crunch Yum!"; }

@@ -1,0 +1,6 @@
+A1|Hershey|1.50|Candy
+A2|Coca Cola|1.00|Beverage
+A3|Spearmint|.50|Gum
+A4|Herr's|1.00|Chips
+
+

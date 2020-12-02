@@ -8,7 +8,7 @@ public class Gum extends Product{
     }
 
     public Gum(){
-        this("Rhino Chew", 0.0);
+        this("Spearmint", .50);
     }
 
     @Override

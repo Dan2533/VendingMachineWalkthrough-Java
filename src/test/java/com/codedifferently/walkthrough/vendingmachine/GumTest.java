@@ -3,7 +3,7 @@ package com.codedifferently.walkthrough.vendingmachine;
 import com.codedifferently.walkthrough.vendingmachine.inventory.Gum;
 import org.junit.Assert;
 import org.junit.Test;
-import sun.security.x509.DeltaCRLIndicatorExtension;
+
 
 public class GumTest {
 

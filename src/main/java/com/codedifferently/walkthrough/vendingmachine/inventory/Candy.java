@@ -8,7 +8,7 @@ public class Candy extends Product {
         super(nameIn, priceIn);
         this.message();
     }
-    public Candy() {this( "Kids Munch", 1.5);}
+    public Candy() {this( "Hershey", 1.50);}
 
     @Override
     public String toString() {return "Munch Munch, Yum";}

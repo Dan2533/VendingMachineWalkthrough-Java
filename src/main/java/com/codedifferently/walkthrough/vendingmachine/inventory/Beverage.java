@@ -7,7 +7,7 @@
             this.message();
         }
 
-        public Beverage() { this("Coca Cola products", 1.0);}
+        public Beverage() { this("Coca Cola", 1.00);}
 
         @Override
         public String toString() { return "Glug Glug Yum!"; }
